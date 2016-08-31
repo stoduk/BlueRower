@@ -1,5 +1,6 @@
 # BlueRower
 ![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/waterrower.jpeg)
+
 I bought a [Water Rower](http://www.waterrower.com]) rowing machine many years ago to train for a charity cycle ride.  It is a great machine in many ways, ideal for home use due to it being quiet during use and the timber frame makes it look a more natural fit for the home.
 
 My model has the Series IV Performance Monitor - basically a small computer that can tell you the usual stats on how you are performing, as well as reading data from the integrated Polar heart rate monitor.  
