@@ -1,20 +1,25 @@
 # BlueRower
+![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/waterrower.jpeg)
 I bought a [Water Rower](http://www.waterrower.com]) rowing machine many years ago to train for a charity cycle ride.  It is a great machine in many ways, ideal for home use due to it being quiet during use and the timber frame makes it look a more natural fit for the home.
 
-My model has the Series IV Performance Monitor - basically a small computer that can tell you the usual stats on how you are performing, as well as reading data from the integrated Polar heart rate monitor.  However, the only option for storing this data is to connect the device via a propriatary cable (standard DB9 connector on computer end, a DIN connector on the rowing machine end).  My main computer at home is a Mac, so it is very hard to find a decent DB9:USB adaptor (many just don't work, some require installing kernal drivers that are too flaky to want to use).  Wireless would be ideal but there aren't any standard options for this.
+My model has the Series IV Performance Monitor - basically a small computer that can tell you the usual stats on how you are performing, as well as reading data from the integrated Polar heart rate monitor.  
+
+However, the only option for storing this data is to connect the device via a propriatary cable (standard DB9 connector on computer end, a DIN connector on the rowing machine end) to a laptop running some propriatary (and poorly supported) software.  My main computer at home is a Mac, so it is very hard to find a decent DB9:USB adaptor (many just don't work, some require installing kernal drivers that are too flaky to want to use); wireless would be ideal but there aren't any standard options for this.
 
 ## Aims
 So this project meets the following aims:
 * allow data to be saved on a computer without requiring cables
 * allow data to be stored on the device for later replay (to cope with cases where the computer isn't available)
 * display key data on a graphical LCD on the device itself (as the computer won't always be in a position where I can read the screen)
-* ideally also upload the resultant data to [Run Keeper](http://www.runkeeper.com) or similar
+* push buttons on the device to interact with the menu system (select user, trigger session replay, etc.)
+* ideally also upload the resultant data to [Run Keeper](http://www.runkeeper.com) or similar, in as automatic way as possible
 
 ## Features
 * Streaming of rowing machine output over bluetooth serial connection to any computer
 * Storing of sessions locally (on micro SD), either to be streamed over bluetooth later or by copying from the micro SD card
  * All received data is timestamped for this purpose so it can be played back in "real time", which is required for this but also useful for testing!
 * Graphical display shows all the key data that it is sending to the computer or storing
+* Python scripts (so platform independent) to handle the received data and transcribe for uploading to RunKeeper
 
 ## Status
 The project is working fully, though there is plenty of improvements that could be made!  Using it more would be the biggest single improvement I could make :)
