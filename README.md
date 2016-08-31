@@ -30,8 +30,14 @@ Update: actually things are totally broken at the moment :(  I had to borrow the
 * I could potentially remove the Series IV Performance Monitor and handle the raw data myself (from rowing and heart rate sensors), removing one redundant system
 
 ## Photos
-I don't have any photos of the fully working system, unfortunately.  I do have a photo of the bring up work for the graphical display, and a photo of the device powered off.
+I don't have any photos of the fully working system, unfortunately.  Here are some progress shots I do have..
 
+Bring-up of the graphical display.  No idea how to convince Github to rotate this, it looks correct on my laptop!
 ![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/IMG_1766.JPG)
+
+The full system, powered by USB battery, with the DIN connector terminated cable to connect to the Water Rower's Performance Monitor.
 ![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/IMG_3628.JPG)
+
+Close up, showing the Bluetooth module (left hanging off), display (front, perpendicular to board), RTC and battery (top right), MAX3232 RS232 to TTL adaptor (top left, partially obscured by cable).
 ![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/IMG_3630.JPG)
+![some words](https://raw.githubusercontent.com/stoduk/BlueRower/master/Screenshot%202016-08-31%2011.27.21.png)
